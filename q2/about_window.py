@@ -2,7 +2,8 @@
 from PySide6.QtWidgets import QWidget, QLabel, QVBoxLayout
 from PySide6.QtCore import Qt
 
-GITHUB_URL = "https://github.com/guyshturman11-max/exe-4"
+GITHUB_URL = "https://github.com/YOUR_USERNAME/YOUR_REPO"  
+
 
 class AboutWindow(QWidget):
 
