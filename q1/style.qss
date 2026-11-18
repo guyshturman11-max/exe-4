@@ -1,0 +1,49 @@
+/* [UI - AI] Style for the Grades Corrector */
+QMainWindow, QWidget {
+    background-color: #f4f6fb;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 14px;
+    color: #1f2937;
+}
+
+QPushButton {
+    background-color: #3b5bdb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+}
+QPushButton:hover   { background-color: #364fc7; }
+QPushButton:pressed { background-color: #2b3fa0; }
+
+QPushButton#updateButton {
+    background-color: #2f9e44;
+    font-weight: bold;
+    padding: 10px;
+}
+QPushButton#updateButton:hover { background-color: #2b8a3e; }
+
+QLineEdit {
+    background: white;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    padding: 6px;
+}
+QLineEdit:focus { border: 2px solid #3b5bdb; }
+
+QTableWidget {
+    background: white;
+    gridline-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    alternate-background-color: #f8f9fa;
+}
+QHeaderView::section {
+    background-color: #dbe4ff;
+    color: #1f2937;
+    font-weight: bold;
+    padding: 6px;
+    border: none;
+}
+
+QLabel#aboutTitle { font-size: 20px; font-weight: bold; color: #3b5bdb; }

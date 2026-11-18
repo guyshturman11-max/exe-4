@@ -1,0 +1,27 @@
+/* [UI - AI] Style for the Ice Cream window */
+QMainWindow, QWidget {
+    background-color: #fff8f0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 14px;
+    color: #3d2c1e;
+}
+
+QPushButton {
+    background-color: #f08c00;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 18px;
+    font-weight: bold;
+}
+QPushButton:hover   { background-color: #e67700; }
+QPushButton:pressed { background-color: #c25e00; }
+
+QToolBar {
+    background: #ffe8cc;
+    border: none;
+    border-radius: 6px;
+    padding: 2px;
+}
+
+QLabel#aboutTitle { font-size: 20px; font-weight: bold; color: #f08c00; }
