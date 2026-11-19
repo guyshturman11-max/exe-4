@@ -1,0 +1,17 @@
+Bonus features
+
+Q1 - Grades Corrector:
+- Opening the updated file works on all operating systems (Windows, macOS, Linux)
+- If the file is open in Excel (locked), a warning is shown instead of crashing
+- Student IDs are kept as text, so IDs starting with 0 (e.g. 098901234) are preserved
+- Bonus input accepts only whole numbers (0-100)
+- Corrected grades are always calculated from the original grades,
+  so entering a new bonus replaces the previous one instead of adding to it
+
+Q2 - Ice Cream Revenue:
+- Trend line equation is displayed on the graph
+- Legend for the trend line
+- Axis labels include units (Temperature [C], Revenue [$])
+
+Both:
+- Separate About window class (about_window.py) with a clickable GitHub linkSS
